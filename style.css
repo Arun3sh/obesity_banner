@@ -145,3 +145,57 @@ h5{
   color: #F9BC0B;
   text-align: right;
 }
+
+/* Media Query for Mobile */
+@media only screen and (max-width:650px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .column1{
+    border-left: none;
+  }
+  .icecream {
+    height: 105px;
+    padding-top: 150px;
+    padding-left: 50px;
+  }
+  .flexbox, .sub-column3{
+    height: fit-content;
+  }
+  .sub-column3-content {
+    height: fit-content;
+  }
+  .sub-column3-content img {
+    height: 95px;
+  }
+  .sub-column5{
+    flex-direction: column;
+  }
+  .sub-column5-content2 img {
+    width: 100%;
+  }
+  .healthyEating{
+    height: 95px;
+  }
+  .healthyEating h4 {
+    margin: 0px 5px 0px 5px;
+    line-height: 0.75;
+  }
+  .healthyEating h1 {
+    margin: 0px 5px 0px 0px;
+  }
+  .healthyEating img{
+    width: 100%;
+  }
+  .decoration{
+    height: 0px;
+    color: white;
+    text-align: center;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 9px solid #19AEC2;
+    border-bottom: 9px solid #19AEC2;
+  }
+}
